@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://167.99.153.95/posts';
+const url = 'http://memories-server.xyz/posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost)
